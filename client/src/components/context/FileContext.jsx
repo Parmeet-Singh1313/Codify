@@ -6,6 +6,7 @@ import { SocketEvent } from "../types/socket";
 import { findParentDirectory, getFileById, initialFileStructure, isFileExist, } from "../utils/file";
 import { useAppContext } from "./AppContext";
 import { useSocket } from "./SocketContext";
+import JSZip from 'jszip';
 
 const FileContext = createContext(null);
 
