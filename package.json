@@ -1,0 +1,27 @@
+{
+  "name": "code-sync-main",
+  "version": "1.0.0",
+  "description": "![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/state": "^6.4.1",
+    "@emmetio/codemirror6-plugin": "^0.4.0",
+    "axios": "^1.7.7",
+    "express": "^4.21.0",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-resizable": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  }
+}
